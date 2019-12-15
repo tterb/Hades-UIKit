@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C6B05D23A5F2EC00674AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B05C23A5F2EC00674AEA /* AppDelegate.swift */; };
+		19C6B06423A5F2EC00674AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C6B06223A5F2EC00674AEA /* Main.storyboard */; };
+		19C6B06623A5F2EE00674AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C6B06523A5F2EE00674AEA /* Assets.xcassets */; };
+		19C6B06923A5F2EE00674AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C6B06723A5F2EE00674AEA /* LaunchScreen.storyboard */; };
+		19C6B07423A5F2EE00674AEA /* HadesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B07323A5F2EE00674AEA /* HadesTests.swift */; };
+		19C6B07F23A5F2EE00674AEA /* HadesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B07E23A5F2EE00674AEA /* HadesUITests.swift */; };
+		19C6B08D23A5F4B900674AEA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B08C23A5F4B900674AEA /* LoginViewController.swift */; };
+		19C6B08F23A6003800674AEA /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B08E23A6003800674AEA /* AccountListViewController.swift */; };
+		19C6B09123A60D1D00674AEA /* reddift_config.json in Resources */ = {isa = PBXBuildFile; fileRef = 19C6B09023A60D1D00674AEA /* reddift_config.json */; };
+		19C6B09323A612E800674AEA /* FromFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B09223A612E800674AEA /* FromFieldView.swift */; };
+		19C6B09523A6132400674AEA /* PostFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B09423A6132400674AEA /* PostFieldView.swift */; };
+		19C6B09723A6184A00674AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C6B09623A6184900674AEA /* SceneDelegate.swift */; };
+		1FC0E761C1A9A957C6095DDB /* Pods_HadesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0337D79966A14018A03D90F0 /* Pods_HadesUITests.framework */; };
+		42A6A77B3F470F3BCDDCC889 /* Pods_Hades.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDD43A2F5275960F3DDB42F /* Pods_Hades.framework */; };
+		CDACE30BB2FBFCF7B6F0E0A0 /* Pods_HadesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6446C09E147724059FF0DB /* Pods_HadesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C6B07023A5F2EE00674AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C6B05123A5F2EC00674AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C6B05823A5F2EC00674AEA;
+			remoteInfo = Hades2;
+		};
+		19C6B07B23A5F2EE00674AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C6B05123A5F2EC00674AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C6B05823A5F2EC00674AEA;
+			remoteInfo = Hades2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0337D79966A14018A03D90F0 /* Pods_HadesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HadesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA08EE3CB54281691A48EAF /* Pods-Hades2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades2.release.xcconfig"; path = "Target Support Files/Pods-Hades2/Pods-Hades2.release.xcconfig"; sourceTree = "<group>"; };
+		145E4CB11643ACC5765C54A6 /* Pods-HadesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HadesTests.debug.xcconfig"; path = "Target Support Files/Pods-HadesTests/Pods-HadesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		19C6B05923A5F2EC00674AEA /* Hades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C6B05C23A5F2EC00674AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19C6B06323A5F2EC00674AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19C6B06523A5F2EE00674AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C6B06823A5F2EE00674AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19C6B06A23A5F2EE00674AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C6B06F23A5F2EE00674AEA /* HadesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C6B07323A5F2EE00674AEA /* HadesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesTests.swift; sourceTree = "<group>"; };
+		19C6B07523A5F2EE00674AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C6B07A23A5F2EE00674AEA /* HadesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HadesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C6B07E23A5F2EE00674AEA /* HadesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadesUITests.swift; sourceTree = "<group>"; };
+		19C6B08023A5F2EE00674AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C6B08C23A5F4B900674AEA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		19C6B08E23A6003800674AEA /* AccountListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
+		19C6B09023A60D1D00674AEA /* reddift_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddift_config.json; sourceTree = "<group>"; };
+		19C6B09223A612E800674AEA /* FromFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromFieldView.swift; sourceTree = "<group>"; };
+		19C6B09423A6132400674AEA /* PostFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFieldView.swift; sourceTree = "<group>"; };
+		19C6B09623A6184900674AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57F07017012A56CD6583FC7A /* Pods-Hades.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades.release.xcconfig"; path = "Target Support Files/Pods-Hades/Pods-Hades.release.xcconfig"; sourceTree = "<group>"; };
+		6CDD43A2F5275960F3DDB42F /* Pods_Hades.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hades.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE9FA66C10CFFEBFBAE3D05 /* Pods-Hades2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades2UITests.debug.xcconfig"; path = "Target Support Files/Pods-Hades2UITests/Pods-Hades2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		700384CD02454B00B2F40C8B /* Pods-Hades2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades2UITests.release.xcconfig"; path = "Target Support Files/Pods-Hades2UITests/Pods-Hades2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		85A3EF7B3E4BD3287C81B9C3 /* Pods-Hades2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades2Tests.debug.xcconfig"; path = "Target Support Files/Pods-Hades2Tests/Pods-Hades2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		87787CCBE6B95CC23A44B4B0 /* Pods-Hades2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades2Tests.release.xcconfig"; path = "Target Support Files/Pods-Hades2Tests/Pods-Hades2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC6446C09E147724059FF0DB /* Pods_HadesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HadesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0ADCA65903CE8772C2F4D20 /* Pods-HadesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HadesTests.release.xcconfig"; path = "Target Support Files/Pods-HadesTests/Pods-HadesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CEAF2527EF46A764A05D8382 /* Pods-HadesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HadesUITests.debug.xcconfig"; path = "Target Support Files/Pods-HadesUITests/Pods-HadesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C5DD2E2EEC3CD7823C85EF /* Pods-Hades.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades.debug.xcconfig"; path = "Target Support Files/Pods-Hades/Pods-Hades.debug.xcconfig"; sourceTree = "<group>"; };
+		EC578C355CD76B01791E6847 /* Pods-Hades2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hades2.debug.xcconfig"; path = "Target Support Files/Pods-Hades2/Pods-Hades2.debug.xcconfig"; sourceTree = "<group>"; };
+		F96F730B48CA3C54DA802119 /* Pods-HadesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HadesUITests.release.xcconfig"; path = "Target Support Files/Pods-HadesUITests/Pods-HadesUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C6B05623A5F2EC00674AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A6A77B3F470F3BCDDCC889 /* Pods_Hades.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C6B06C23A5F2EE00674AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDACE30BB2FBFCF7B6F0E0A0 /* Pods_HadesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C6B07723A5F2EE00674AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC0E761C1A9A957C6095DDB /* Pods_HadesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C6B05023A5F2EC00674AEA = {
+			isa = PBXGroup;
+			children = (
+				19C6B05B23A5F2EC00674AEA /* Hades */,
+				19C6B07223A5F2EE00674AEA /* HadesTests */,
+				19C6B07D23A5F2EE00674AEA /* HadesUITests */,
+				19C6B05A23A5F2EC00674AEA /* Products */,
+				99135EFAAC4C143451090AF1 /* Pods */,
+				E2A7E9D4BD2B9477B60137BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19C6B05A23A5F2EC00674AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C6B05923A5F2EC00674AEA /* Hades.app */,
+				19C6B06F23A5F2EE00674AEA /* HadesTests.xctest */,
+				19C6B07A23A5F2EE00674AEA /* HadesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C6B05B23A5F2EC00674AEA /* Hades */ = {
+			isa = PBXGroup;
+			children = (
+				19C6B09623A6184900674AEA /* SceneDelegate.swift */,
+				19C6B05C23A5F2EC00674AEA /* AppDelegate.swift */,
+				19C6B06223A5F2EC00674AEA /* Main.storyboard */,
+				19C6B06523A5F2EE00674AEA /* Assets.xcassets */,
+				19C6B09023A60D1D00674AEA /* reddift_config.json */,
+				19C6B06723A5F2EE00674AEA /* LaunchScreen.storyboard */,
+				19C6B06A23A5F2EE00674AEA /* Info.plist */,
+				19C6B08C23A5F4B900674AEA /* LoginViewController.swift */,
+				19C6B08E23A6003800674AEA /* AccountListViewController.swift */,
+				19C6B09223A612E800674AEA /* FromFieldView.swift */,
+				19C6B09423A6132400674AEA /* PostFieldView.swift */,
+			);
+			path = Hades;
+			sourceTree = "<group>";
+		};
+		19C6B07223A5F2EE00674AEA /* HadesTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C6B07323A5F2EE00674AEA /* HadesTests.swift */,
+				19C6B07523A5F2EE00674AEA /* Info.plist */,
+			);
+			path = HadesTests;
+			sourceTree = "<group>";
+		};
+		19C6B07D23A5F2EE00674AEA /* HadesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19C6B07E23A5F2EE00674AEA /* HadesUITests.swift */,
+				19C6B08023A5F2EE00674AEA /* Info.plist */,
+			);
+			path = HadesUITests;
+			sourceTree = "<group>";
+		};
+		99135EFAAC4C143451090AF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC578C355CD76B01791E6847 /* Pods-Hades2.debug.xcconfig */,
+				0BA08EE3CB54281691A48EAF /* Pods-Hades2.release.xcconfig */,
+				85A3EF7B3E4BD3287C81B9C3 /* Pods-Hades2Tests.debug.xcconfig */,
+				87787CCBE6B95CC23A44B4B0 /* Pods-Hades2Tests.release.xcconfig */,
+				6EE9FA66C10CFFEBFBAE3D05 /* Pods-Hades2UITests.debug.xcconfig */,
+				700384CD02454B00B2F40C8B /* Pods-Hades2UITests.release.xcconfig */,
+				E1C5DD2E2EEC3CD7823C85EF /* Pods-Hades.debug.xcconfig */,
+				57F07017012A56CD6583FC7A /* Pods-Hades.release.xcconfig */,
+				145E4CB11643ACC5765C54A6 /* Pods-HadesTests.debug.xcconfig */,
+				C0ADCA65903CE8772C2F4D20 /* Pods-HadesTests.release.xcconfig */,
+				CEAF2527EF46A764A05D8382 /* Pods-HadesUITests.debug.xcconfig */,
+				F96F730B48CA3C54DA802119 /* Pods-HadesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2A7E9D4BD2B9477B60137BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD43A2F5275960F3DDB42F /* Pods_Hades.framework */,
+				BC6446C09E147724059FF0DB /* Pods_HadesTests.framework */,
+				0337D79966A14018A03D90F0 /* Pods_HadesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C6B05823A5F2EC00674AEA /* Hades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C6B08323A5F2EE00674AEA /* Build configuration list for PBXNativeTarget "Hades" */;
+			buildPhases = (
+				D2061F6EAAF48B5A7F6CDC21 /* [CP] Check Pods Manifest.lock */,
+				19C6B05523A5F2EC00674AEA /* Sources */,
+				19C6B05623A5F2EC00674AEA /* Frameworks */,
+				19C6B05723A5F2EC00674AEA /* Resources */,
+				FF904E224AAE6B8A720E2F1F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hades;
+			productName = Hades2;
+			productReference = 19C6B05923A5F2EC00674AEA /* Hades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19C6B06E23A5F2EE00674AEA /* HadesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C6B08623A5F2EE00674AEA /* Build configuration list for PBXNativeTarget "HadesTests" */;
+			buildPhases = (
+				3A790DD291100D400F7EE994 /* [CP] Check Pods Manifest.lock */,
+				19C6B06B23A5F2EE00674AEA /* Sources */,
+				19C6B06C23A5F2EE00674AEA /* Frameworks */,
+				19C6B06D23A5F2EE00674AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C6B07123A5F2EE00674AEA /* PBXTargetDependency */,
+			);
+			name = HadesTests;
+			productName = Hades2Tests;
+			productReference = 19C6B06F23A5F2EE00674AEA /* HadesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19C6B07923A5F2EE00674AEA /* HadesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C6B08923A5F2EE00674AEA /* Build configuration list for PBXNativeTarget "HadesUITests" */;
+			buildPhases = (
+				F55537CFB373A7686F767D98 /* [CP] Check Pods Manifest.lock */,
+				19C6B07623A5F2EE00674AEA /* Sources */,
+				19C6B07723A5F2EE00674AEA /* Frameworks */,
+				19C6B07823A5F2EE00674AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C6B07C23A5F2EE00674AEA /* PBXTargetDependency */,
+			);
+			name = HadesUITests;
+			productName = Hades2UITests;
+			productReference = 19C6B07A23A5F2EE00674AEA /* HadesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C6B05123A5F2EC00674AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Brett Stevenson";
+				TargetAttributes = {
+					19C6B05823A5F2EC00674AEA = {
+						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
+					};
+					19C6B06E23A5F2EE00674AEA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 19C6B05823A5F2EC00674AEA;
+					};
+					19C6B07923A5F2EE00674AEA = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 19C6B05823A5F2EC00674AEA;
+					};
+				};
+			};
+			buildConfigurationList = 19C6B05423A5F2EC00674AEA /* Build configuration list for PBXProject "Hades" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C6B05023A5F2EC00674AEA;
+			productRefGroup = 19C6B05A23A5F2EC00674AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C6B05823A5F2EC00674AEA /* Hades */,
+				19C6B06E23A5F2EE00674AEA /* HadesTests */,
+				19C6B07923A5F2EE00674AEA /* HadesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C6B05723A5F2EC00674AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C6B06923A5F2EE00674AEA /* LaunchScreen.storyboard in Resources */,
+				19C6B06623A5F2EE00674AEA /* Assets.xcassets in Resources */,
+				19C6B09123A60D1D00674AEA /* reddift_config.json in Resources */,
+				19C6B06423A5F2EC00674AEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C6B06D23A5F2EE00674AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C6B07823A5F2EE00674AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A790DD291100D400F7EE994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HadesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2061F6EAAF48B5A7F6CDC21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hades-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55537CFB373A7686F767D98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HadesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF904E224AAE6B8A720E2F1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hades/Pods-Hades-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hades/Pods-Hades-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hades/Pods-Hades-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C6B05523A5F2EC00674AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C6B09323A612E800674AEA /* FromFieldView.swift in Sources */,
+				19C6B08D23A5F4B900674AEA /* LoginViewController.swift in Sources */,
+				19C6B05D23A5F2EC00674AEA /* AppDelegate.swift in Sources */,
+				19C6B08F23A6003800674AEA /* AccountListViewController.swift in Sources */,
+				19C6B09523A6132400674AEA /* PostFieldView.swift in Sources */,
+				19C6B09723A6184A00674AEA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C6B06B23A5F2EE00674AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C6B07423A5F2EE00674AEA /* HadesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C6B07623A5F2EE00674AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C6B07F23A5F2EE00674AEA /* HadesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C6B07123A5F2EE00674AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C6B05823A5F2EC00674AEA /* Hades */;
+			targetProxy = 19C6B07023A5F2EE00674AEA /* PBXContainerItemProxy */;
+		};
+		19C6B07C23A5F2EE00674AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C6B05823A5F2EC00674AEA /* Hades */;
+			targetProxy = 19C6B07B23A5F2EE00674AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19C6B06223A5F2EC00674AEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C6B06323A5F2EC00674AEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19C6B06723A5F2EE00674AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C6B06823A5F2EE00674AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19C6B08123A5F2EE00674AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C6B08223A5F2EE00674AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C6B08423A5F2EE00674AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C5DD2E2EEC3CD7823C85EF /* Pods-Hades.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hades/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brettstevenson.Hades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hades/Hades-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19C6B08523A5F2EE00674AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F07017012A56CD6583FC7A /* Pods-Hades.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hades/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brettstevenson.Hades;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hades/Hades-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19C6B08723A5F2EE00674AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 145E4CB11643ACC5765C54A6 /* Pods-HadesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HadesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brettstevenson.HadesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hades.app/Hades";
+			};
+			name = Debug;
+		};
+		19C6B08823A5F2EE00674AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0ADCA65903CE8772C2F4D20 /* Pods-HadesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HadesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brettstevenson.HadesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hades.app/Hades";
+			};
+			name = Release;
+		};
+		19C6B08A23A5F2EE00674AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAF2527EF46A764A05D8382 /* Pods-HadesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HadesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brettstevenson.HadesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hades2;
+			};
+			name = Debug;
+		};
+		19C6B08B23A5F2EE00674AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96F730B48CA3C54DA802119 /* Pods-HadesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HadesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = brettstevenson.HadesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hades2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C6B05423A5F2EC00674AEA /* Build configuration list for PBXProject "Hades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C6B08123A5F2EE00674AEA /* Debug */,
+				19C6B08223A5F2EE00674AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C6B08323A5F2EE00674AEA /* Build configuration list for PBXNativeTarget "Hades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C6B08423A5F2EE00674AEA /* Debug */,
+				19C6B08523A5F2EE00674AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C6B08623A5F2EE00674AEA /* Build configuration list for PBXNativeTarget "HadesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C6B08723A5F2EE00674AEA /* Debug */,
+				19C6B08823A5F2EE00674AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C6B08923A5F2EE00674AEA /* Build configuration list for PBXNativeTarget "HadesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C6B08A23A5F2EE00674AEA /* Debug */,
+				19C6B08B23A5F2EE00674AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C6B05123A5F2EC00674AEA /* Project object */;
+}
